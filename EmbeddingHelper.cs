@@ -1,5 +1,4 @@
 ﻿using OpenAI_API;
-using OpenAI_API.Embedding;
 
 class EmbeddingHelper
 {
@@ -12,7 +11,7 @@ class EmbeddingHelper
 
     public async Task<float[]> GetEmbeddingAsync(string code)
     {
-        var result = await _api.Embeddings.CreateEmbeddingAsync(new EmbeddingRequest { Input = code, Model = "text-embedding-3-small" });
+        var result = await _api.Embeddings.CreateEmbeddingAsync(code);
         return result.Data[0].Embedding;
     }
 }
