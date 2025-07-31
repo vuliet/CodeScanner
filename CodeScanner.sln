@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeScanner", "CodeScanner.csproj", "{93E4B9CE-0EE0-51DE-B926-F637FEE17622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E4B9CE-0EE0-51DE-B926-F637FEE17622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E4B9CE-0EE0-51DE-B926-F637FEE17622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E4B9CE-0EE0-51DE-B926-F637FEE17622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E4B9CE-0EE0-51DE-B926-F637FEE17622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB5BFC0-D030-4C5C-91AF-43B7BC42061E}
+	EndGlobalSection
+EndGlobal
